@@ -15,6 +15,6 @@ function isSubset(set, subset){
 }
 
 //test cases
-isSubset(['A','B','C','D','E'],['A','D','E']);
-isSubset(['A','B','C','D','E'],['A','D','Z']);
-isSubset(['A','D','E'],['A','A','D','E']);
+isSubset(['A','B','C','D','E'],['A','D','E']); //output: true
+isSubset(['A','B','C','D','E'],['A','D','Z']); //output: false
+isSubset(['A','D','E'],['A','A','D','E']); //output: true
